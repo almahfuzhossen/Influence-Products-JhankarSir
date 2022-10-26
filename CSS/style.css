@@ -55,5 +55,24 @@ body{
   nav .navbar-list a:hover {
     color: #ff005c;
   }
+  /*-------------------
+    banner-section
+-------------------*/
+.top-section{
+  display: flex;
+  background-color: #aac6c7;
+  justify-content: center;
+  padding-bottom: 86px;
+}
+.banner-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 30px;
+}
+.banner-title{
+  width: 487px;
+  margin-left: 10px;
+}
  
   
