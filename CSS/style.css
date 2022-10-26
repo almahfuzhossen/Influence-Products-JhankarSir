@@ -25,6 +25,7 @@ body{
 .text-style {
     color: #fff;
     margin-left: 10px;
+    font-weight: 700;
   }
 .text-style:hover {
     color: #ff005c;
@@ -46,7 +47,7 @@ body{
   nav .navbar-list a{
     color: #ffffff;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     text-decoration: none;
     line-height: 24px;
@@ -98,4 +99,71 @@ body{
  .btn-hero i{
   margin-left: 5px;
  }
- 
+ .banner-img img {
+   width:440px;
+   height: 414px;
+ }
+/*--------------- 
+ products-section
+----------------- */
+.collection{
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20px;
+}
+main {
+  width: 1047px;
+  justify-content: center;
+  text-align: center;
+}
+.products-section{
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  background: #ffffff;
+  
+}
+.products-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin-left: 10px;
+  line-height: 20px;
+}
+.product{
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px rgba(27, 25, 25, 0.15);
+  overflow: hidden;
+  text-align: center;
+}
+.product:hover{
+  padding: 15px;
+  background-color: rgb(223, 236, 236);
+  border-radius: 5px;
+}
+.product img:hover{
+  transform: scale(1.1);
+  transition: transform 2s;
+  cursor: pointer;
+}
+.product h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 16px;
+  color: #18191f;
+}
+.product h5 {
+  font-size: 18px;
+}
+.product a{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+.fa-star {
+  color: orange;
+}
