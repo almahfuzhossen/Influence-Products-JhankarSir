@@ -74,5 +74,28 @@ body{
   width: 487px;
   margin-left: 10px;
 }
+.banner-title h1{
+  font-size: 36px;
+  font-style: normal;
+  line-height: 40px;
+  color: #030202;
+  padding-bottom: 20px;
+}
+ .btn-hero{
+  background: #e02c6d;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 15px;
+  display: inline-block;
+  transition: background-color 0.5s;
+ }
+ .btn-hero:hover{
+ background-color: #01ccbb;
+ }
+ .btn-hero i{
+  margin-left: 5px;
+ }
  
-  
